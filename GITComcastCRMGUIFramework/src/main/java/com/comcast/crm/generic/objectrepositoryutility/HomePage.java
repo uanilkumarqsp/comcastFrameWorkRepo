@@ -20,6 +20,13 @@ public class HomePage {
 	@FindBy(linkText="Organizations")
 	private WebElement orgLink;
 	
+	@FindBy(linkText="Products")
+	private WebElement productLink;
+	
+	public WebElement getProductLink() {
+		return productLink;
+	}
+
 	@FindBy(linkText="Contacts")
 	private WebElement contactLnk;
 	
